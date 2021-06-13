@@ -2,23 +2,7 @@
 #include <assert.h>
 
 
-int factors(int no,int nums[]){
-    int i=2;
-    int index=0;
- while(no>=i){
-     if(no%i==0){
-         
-         nums[index++]=i;
-         no=no/i;
-         
-     }
-     else
-     i++;
-     
- }
-return index;
-    
-}
+int factors(int no,int nums[]);
 
 int main(void) {
   int ret[100] = {0};
