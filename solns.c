@@ -3,10 +3,10 @@
 float average(int arr[], int n){
   float average=0.0;
   for(int i=0;i<n;i++){
-    average+=arr[i];
+    average_val+=arr[i];
   }
-  average=(float)average/(float)n;
-  return average;
+  average_val=(float)average_val/(float)n;
+  return average_val;
 }
 int factors(int no,int nums[]){
     int i=2;
