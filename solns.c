@@ -13,10 +13,10 @@ int factors(int no,int nums[]){
     int index=0;
  while(no>=i){
      if(no%i==0){
-         if(isprime(i)){
+       
          nums[index++]=i;
          no=no/i;
-         }
+         
      }
      else
      i++;
