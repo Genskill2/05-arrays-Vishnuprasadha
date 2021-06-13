@@ -23,7 +23,7 @@ int factors(int no,int nums[]){
      i++;
      
  }
-return nums;
+return index;
     
 }
 
