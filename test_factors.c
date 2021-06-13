@@ -1,24 +1,16 @@
 #include <stdio.h>
 #include <assert.h>
 
-int isprime(int no){
-  if(no==1)
-    return 0;
-  for(int i=2;i<no;i++){
-    if(no%i==0)
-      return 0;
-  }
-  return 1;
-}
+
 int factors(int no,int nums[]){
     int i=2;
     int index=0;
  while(no>=i){
      if(no%i==0){
-         if(isprime(i)){
+         
          nums[index++]=i;
          no=no/i;
-         }
+         
      }
      else
      i++;
