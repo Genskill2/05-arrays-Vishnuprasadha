@@ -2,7 +2,7 @@
 #include <assert.h>
 
 
-int max(int nums[], int n);
+int max(int [], int);
 
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
