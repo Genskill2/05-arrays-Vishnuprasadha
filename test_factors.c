@@ -2,7 +2,7 @@
 #include <assert.h>
 
 
-int factors(int no,int nums[]);
+int factors(int, int []);
 
 int main(void) {
   int ret[100] = {0};
