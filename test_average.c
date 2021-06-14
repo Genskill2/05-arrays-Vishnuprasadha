@@ -2,7 +2,7 @@
 #include <assert.h>
 
 
-float average(int arr[], int n);
+float average(int [], int);
 
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
