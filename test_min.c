@@ -2,7 +2,8 @@
 #include <assert.h>
 
 
-int min(int nums[], int n);
+int min(int [], int);
+
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
   assert (min(x, 7) == -3);
