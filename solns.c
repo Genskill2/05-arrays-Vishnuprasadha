@@ -3,6 +3,7 @@
 float average(int arr[], int n){
   float average_val=0.0;
   for(int i=0;i<n;i++){
+    
     average_val+=arr[i];
   }
   average_val=(float)average_val/(float)n;
